@@ -19,9 +19,10 @@ Create a GitHub gist to answer these questions in as much detail as possible. Im
 - JSX is like a combination of JS and HTML. We use JSX to write HTML in react, so we don't have to separate all JS and HTML like we do with vanilla JS.
 
 ### What are React "props?"
-- Props in React is properties. Using props helps make components dynamic and reusable. 
+- Props in React is properties. Using props helps make components dynamic and reusable. Like vanilla JS, it is how we transfer data from one component to another. 
 
 ### What is React "state?"
--
+- state is the data a component maintains. Since props cannot be changed, state is a way for a component to maintain and/or change its own data if it needs. 
 
-What does "data down, actions up" mean in React?
+### What does "data down, actions up" mean in React?
+- This is referring to the flow of data. Data is stored at the highest level component via props, then is passed down through those nested components as needed. Actions is the opposite- an action starts at the lowest level, and then triggers events up in the opposite way the data is passed. 
